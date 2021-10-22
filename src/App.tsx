@@ -1,11 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import Reservation from "./views/Reservation"
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Reservation />
+  </>
+)
 
-export default App;
+export default App
