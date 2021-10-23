@@ -1,8 +1,10 @@
-import * as React from 'react'
+import React from 'react'
 import TextField from '@mui/material/TextField'
 import AdapterDateFns from '@mui/lab/AdapterDateFns'
-import LocalizationProvider from '@mui/lab/LocalizationProvider'
-import DatePicker from '@mui/lab/DatePicker'
+import {
+    LocalizationProvider,
+    DatePicker
+} from '@mui/lab'
 
 const CustomDatePicker = () => {
     const [value, setValue] = React.useState<Date | null>(null)
