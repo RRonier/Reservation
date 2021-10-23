@@ -1,10 +1,13 @@
-import * as React from 'react'
-import TextField from '@mui/material/TextField'
-import Autocomplete from '@mui/material/Autocomplete'
+import React from 'react'
+import {
+    TextField,
+    Autocomplete
+} from '@mui/material'
+import { persons } from "utils/Persons"
 
 const CustomSelect = () => (
     <Autocomplete
-        id="country-select-demo"
+        id="select"
         sx={{ width: 300 }}
         options={persons}
         autoHighlight
@@ -15,7 +18,6 @@ const CustomSelect = () => (
                 label="Choose ammount of persons"
                 inputProps={{
                     ...params.inputProps,
-                    // autoComplete: 'new-password', // disable autocomplete and autofill
                 }}
             />
         )}
@@ -23,28 +25,3 @@ const CustomSelect = () => (
 )
 
 export default CustomSelect
-
-interface Person {
-    ammount: number;
-}
-
-const persons: readonly Person[] = [
-    {
-        ammount: 1
-    },
-    {
-        ammount: 2
-    },
-    {
-        ammount: 4
-    },
-    {
-        ammount: 6
-    },
-    {
-        ammount: 8
-    },
-    {
-        ammount: 10
-    },
-];
