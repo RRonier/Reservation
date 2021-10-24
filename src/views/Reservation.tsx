@@ -22,7 +22,7 @@ const Reservation = () => {
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
             <div>
                 <HorizontalStepper activeStep={activeStep} />
-                <Divider variant="inset" />
+                <Divider variant="fullWidth" />
                 {activeStep === 0 ? (
                     <>
                         <FirstStepPage selectTable={selectTable} />
