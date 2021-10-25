@@ -1,0 +1,39 @@
+.restorantContainer {
+    display: flex;
+    height: 70px;
+}
+
+.restorantPicture {
+    border-radius: 10%;
+}
+
+.itemsContainer {
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 15px;
+}
+
+.iconItem {
+    margin-right: 5px;
+}
+
+.ratingContainer {
+    display: flex; 
+    align-items: center;
+}
+
+.ratingText {
+    padding: 0; 
+    margin: 0;
+}
+
+.itemsRow {
+    display: flex; 
+    margin-top: 5px;
+}
+
+.iconContainer {
+    display: flex; 
+    align-items: center;
+    margin: 0 20px 0 0;
+}
