@@ -1,0 +1,11 @@
+.reservationContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px
+}
+
+.buttonFullWidth {
+    display: grid;
+    margin-top: 10px;
+}
