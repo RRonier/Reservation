@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <SnackbarProvider maxSnack={3}>
+    <SnackbarProvider maxSnack={1} autoHideDuration={2000}>
       <App />
     </SnackbarProvider>
   </React.StrictMode>,
