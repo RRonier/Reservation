@@ -32,7 +32,7 @@ const Reservation = () => {
                     <>
                         <FirstStepPage selectTable={selectTable} />
                         <div className={buttonContainer}>
-                            <Button variant="contained" onClick={handleNext} disabled={!tableSelected}>Continuar</Button>
+                            <Button variant="contained" onClick={handleNext} disabled={!tableSelected}>Continue</Button>
                         </div>
                     </>
                 ) : (

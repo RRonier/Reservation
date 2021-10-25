@@ -11,11 +11,11 @@ const SecondStepPage = ({ handleNext }: IProps) => {
 
     return (
         <>
-            <p><b>Ya casi has terminado!</b></p>
+            <p><b>You're almost done!</b></p>
             <Restorant name="Hard Rock Cafe - Key West" />
             <section>
-                <p><b>¿Que debes saber antes de ir?</b></p>
-                <p>Una nota del restaurante</p>
+                <p><b>¿What you should know before you go?</b></p>
+                <p>Restorant information</p>
                 <p>Hard Rock properties have operated by working closely with safety and health agencies to align with local, <br />
                     state, federal and blobal public health guidelines in response to CODIV-19. We take the health and safety of <br />
                     our team and gests extremely seriously. In compliance with recomendations from local health officials, we are <br />
@@ -23,7 +23,7 @@ const SecondStepPage = ({ handleNext }: IProps) => {
                 </p>
             </section>
             <section>
-                <p>Detalles del comensal</p>
+                <p>Dinner details</p>
                 <ReservationForm handleNext={handleNext} />
             </section>
         </>

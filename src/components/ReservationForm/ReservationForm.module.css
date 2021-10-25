@@ -5,7 +5,8 @@
     row-gap: 10px
 }
 
-.buttonFullWidth {
+.buttonContainer {
     display: grid;
     margin-top: 10px;
+    margin-bottom: 15px;
 }

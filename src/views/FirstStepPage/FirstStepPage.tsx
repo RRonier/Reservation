@@ -41,7 +41,7 @@ const FirstStepPage = ({ selectTable }: IProps) => {
                 <div className={iconContainer}>
                     <MonetizationOnOutlinedIcon />
                     <p className={restorantPrice}>
-                        USD 19.99 por persona
+                        USD 19.99 per person
                     </p>
                 </div>
             </section>
@@ -53,7 +53,7 @@ const FirstStepPage = ({ selectTable }: IProps) => {
             <div className={buttonContainer}>
                 {/* I set the state handler function directly in the because it's just a simple example, 
                         otherwise I'd created a function to handle that and in the onClick event I just call the function name */}
-                <Button variant="contained" onClick={() => setFindTable(true)}>Buscar una mesa</Button>
+                <Button variant="contained" onClick={() => setFindTable(true)}>Find a table</Button>
             </div>
             {
                 findTable && <section className={availableReservations}>
@@ -70,9 +70,9 @@ const FirstStepPage = ({ selectTable }: IProps) => {
                 </section>
             }
             <section className={aboutSection}>
-                <p><b>Acerca de la experiencia</b></p>
+                <p><b>About the experience</b></p>
                 <p >Join us as we celebrate your Lil MonSTARS with a hearty breakfast buffet & our famous donut making corner for the kids! Adults $10.95, add unlimited mimosas for $15 per adult. Drinks not included in buffet prices. Make reservations early, seating is limited! Costumes encouraged...</p>
-                <p><b>Complementos disponibles</b></p>
+                <p><b>Available complements</b></p>
                 <ul>
                     <li>Unlimited mimosas (21 and older)</li>
                     <li>Lil MonSTARS breakfast buffet (10 and under)</li>

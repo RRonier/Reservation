@@ -7,7 +7,7 @@ import {
 } from '@mui/material'
 import classes from "./HorizontalStepper.module.css"
 
-const steps = ['Busca una mesa', 'Agrega tu información']
+const steps = ['Find a table', 'Add your information']
 interface IProps {
     activeStep: number
 }

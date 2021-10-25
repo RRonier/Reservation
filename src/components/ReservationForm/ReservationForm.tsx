@@ -14,7 +14,10 @@ const ReservationForm = ({ handleNext }: IProps) => {
         specialRequest: "",
         sendNotifications: false
     })
-    const { reservationContainer, buttonFullWidth } = formStyles
+    const {
+        reservationContainer,
+        buttonContainer
+    } = formStyles
     const { enqueueSnackbar } = useSnackbar()
 
     const handleChangeValues = (event: ChangeEvent<HTMLInputElement>): void => {
@@ -37,38 +40,38 @@ const ReservationForm = ({ handleNext }: IProps) => {
                     name="name"
                     onChange={handleChangeValues}
                     value={values.name}
-                    label="Nombre" />
+                    label="Name" />
                 <TextField
                     name="lastName"
                     onChange={handleChangeValues}
                     value={values.lastName}
-                    label="Apellido" />
+                    label="Last Name" />
                 <TextField
                     name="celNumber"
                     onChange={handleChangeValues}
                     value={values.celNumber}
-                    label="Numero de telefono" />
+                    label="Telephone number" />
                 <TextField
                     name="email"
                     onChange={handleChangeValues}
                     value={values.email}
-                    label="Correo electronico" />
+                    label="Email" />
                 <TextField
                     name="occation"
                     onChange={handleChangeValues}
                     value={values.occation}
-                    label="Selecciona una ocacion(Opcional)" />
+                    label="Add an occation(Optional)" />
                 <TextField
                     name="specialRequest"
                     onChange={handleChangeValues}
                     value={values.specialRequest}
-                    label="Agregar una solicitud especial" />
+                    label="Add a special request" />
             </div>
             <CustomCheckbox
-                label="Deseo suscribirme para recibir ofertas y noticias de este restaurante por email."
+                label="I wish to subscribe to get offers and news from this restaurant by email."
             />
-            <div className={buttonFullWidth}>
-                <Button variant="contained" onClick={fakeSendFunction}>Completar reservacion</Button>
+            <div className={buttonContainer}>
+                <Button variant="contained" onClick={fakeSendFunction}>Complete reservation</Button>
             </div>
         </form >
     )
