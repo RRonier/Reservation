@@ -1,0 +1,34 @@
+.dateInputContainer {
+    display: flex;
+}
+
+.buttonContainer {
+    display: grid; 
+    margin-top: 10px;
+}
+
+.availableReservations {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.aboutSection {
+    width: 700px;
+}
+
+.restorantInfo {
+    margin: 15px 0;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.restorantPrice {
+    margin: 0;
+    padding: 0;
+}
