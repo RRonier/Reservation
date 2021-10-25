@@ -14,7 +14,7 @@ const CustomTimePicker = () => {
             <TimePicker
                 label="Select the time"
                 value={value}
-                onChange={(newValue) => {
+                onChange={newValue => {
                     setValue(newValue)
                 }}
                 renderInput={(params) => <TextField {...params} />}
