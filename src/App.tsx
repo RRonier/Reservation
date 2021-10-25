@@ -1,5 +1,5 @@
 import React from 'react'
-import Reservation from "./views/Reservation"
+import Reservation from "./views/Reservation/Reservation"
 
 const App = () => (
   <>
