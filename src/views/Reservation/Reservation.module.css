@@ -1,0 +1,10 @@
+.reservationContainer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.buttonContainer {
+    display: grid;
+    margin-top: 10px;
+}
