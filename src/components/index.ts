@@ -2,9 +2,9 @@ import CustomCheckbox from "./CustomCheckbox"
 import CustomDatePicker from "./CustomDatePicker"
 import CustomSelect from "./CustomSelect"
 import CustomTimePicker from "./CustomTimePicker"
-import Restorant from "./Restorant"
-import ReservationForm from "./ReservationForm"
-import HorizontalStepper from "./HorizontalStepper"
+import Restorant from "./Restorant/Restorant"
+import ReservationForm from "./ReservationForm/ReservationForm"
+import HorizontalStepper from "./HorizontalStepper/HorizontalStepper"
 
 export {
     CustomCheckbox,
